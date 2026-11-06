@@ -14,6 +14,7 @@ import { allTools, executeToolCall } from './tools/index.js';
 const server = new Server({
   name: 'bitrix24-mcp-server',
   version: '1.0.0',
+}, {
   capabilities: {
     tools: {}
   }
