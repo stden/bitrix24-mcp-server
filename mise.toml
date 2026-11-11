@@ -1,2 +1,15 @@
 [tools]
 node = "22"
+npm = "11"
+
+[tasks.check]
+run = "git diff --check"
+
+[tasks.build]
+run = "npm run build"
+
+[tasks.test]
+run = "npm run test"
+
+[tasks.dev]
+run = "npm run dev"
